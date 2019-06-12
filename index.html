@@ -1,0 +1,229 @@
+<!DOCTYPE.html>
+<html>
+<body style="background-color: aliceblue">
+<style>
+
+h1 {
+color: cornflowerblue;
+font-family: monospace;
+font-weight: bold;
+font-size: 50px;
+text-align: center;
+border: solid;
+border-color: lightskyblue;
+margin: 25px;
+padding: 25px;
+border-width: thin
+}
+    h2 {
+        color: darkslategray;
+        text-align: center;
+        font-size: 25px;
+        
+         }
+    body {
+        font-family: monospace;
+    }
+    .captions {
+            color: darkslategray;
+            text-align: center;
+            font-style: italic;
+            font-size: 20px;
+    }
+    
+    #whitebox {
+        width: 300px;
+        height: 300px;
+        border-color: black;
+        border: solid;
+        float: center;
+        clear: none;
+        border-width: thick;
+        align-content: center;
+        margin: 5px;
+        
+    }
+    
+    #woodenarm {
+        width: 300px;
+        height: 300px;
+        border-color: black;
+        border: solid;
+        float: left;
+        clear: both;
+        border-width: thick;
+        margin: 5px;
+        
+    }
+           
+    .prostheticpics {
+               display: block;
+               margin-left: auto;
+               margin-right: auto;
+               margin-bottom: 20px;
+               width: 50%;
+               
+        }
+    #WhiteboxWEB  {
+        text-align: center;
+        font-style: italic;
+        font-size: 20px;
+        margin-left: 550px
+    }
+    
+    .sketchuppics {
+        width: 300px;
+        height: 300px;
+         display: block;
+               margin-left: auto;
+               margin-right: auto;
+               margin-bottom: 20px;
+               width: 50%;
+    }
+    
+    #sketchuplink {
+        font-style: italic;
+        font-size: 20px;
+        margin-left: 600;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 50%;
+        display: block
+    }
+    .vex {
+       width: 300px;
+        height: 300px;
+         display: block;
+         margin-left: auto;
+        margin-right: auto;
+            margin-bottom: 20px;
+        width: 30%; 
+        border-style: solid;
+            border: bold;
+    }
+    }
+
+</style>
+
+    <br>
+    <h1> SYDNEY'S TECHNOLOGY PORTFOLIO</h1>
+    <br>
+    
+    <h2>WHITEBOX LEARNING: PROSTHETICS</h2>
+    <p class="captions"> In Whitebox Learning, we designed a prosthetic arm to throw a ball a specific distance, and made adjustments to different variables, such as the lengths of each piece and the angle at which the object was thrown, to get the ball right on the target. After adjusting our designs for different distances, we constructed our own prosthetic arms and threw a ping pong ball into a bucket!</p>
+    
+    <br>
+    <br>
+    
+    
+    <div class="prostheticpics"><img id="whitebox" target="_blank" src="images/arm.png">
+    
+    <img id="woodenarm" target="_blank"
+    src="images/prostheticarm.png">
+    </div>
+    
+    <a id="WhiteboxWEB" target="_blank" href="https://www.whiteboxlearning.com/"> Whitebox Learning Website</a>
+    
+    <br>
+    <br>
+    <br>
+    
+    <hr>
+    
+    <h2>SKETCHUP 3D MODELING</h2>
+    <p class="captions"> In this project, we used Sketchup to make a ring that would help with everyday tasks, such as holding a pencil and drumming! For my project, I made a ring that would <strong>hold multiple dog leashes!</strong> I really enjoyed working on the tutorials on how use Sketchup, and it was really fun creating our own concept and seeing the physical, 3D printed result!</p>
+    
+    <img class="sketchuppics" target="_blank" src="images/ring.png">
+    
+    <a id="sketchuplink" target="_blank"
+       href="https://www.sketchup.com">Sketchup Free Website</a>
+    
+    <hr>
+    
+    <h2>VEX ROBOTICS: SWEEP AWAY</h2>
+    
+    <p class="captions">In this project, we built a robot and programmed it to play a game! In small groups, we built the robot itself, then broke off into even smaller groups to prepare for the challenge! Finally, we set up an arena in the auditorium and competed against our classmates! My robot, Thai, lost in the championship round by one point!</p>
+    
+    <br>
+    <br>
+    
+    <h2>HERE IS SOME OF THE CODE WE USED TO CONTROL OUR ROBOT!</h2>
+    
+    <p class="captions">if(vexRT[Btn7U] == 1)  //If button 7 is pressed:
+{
+	motor[port6] = 32;
+	delay(3000);
+	motor[port1] = 32;
+	motor[port10] = 32;
+	delay(1000);
+	motor[port1] = 0;
+	motor[port10] = 0;
+  motor[port6] = -32;
+  delay(1000);
+  motor[port7] = -32;
+  delay(700);
+}
+  if(vexRT[Btn8U] == 1)
+  {
+  	motor[port7] = -32;
+  	delay(15	Q1	q16tygb 6tyghb 00);
+  	motor[port7] = 0;
+  	motor[port1] = -100;
+  	motor[port10] = 100;
+  	delay(650);
+
+  	while(SensorValue(sensor2) == 0)
+  	{
+  	motor[port1] = 56;
+  	motor[port10] = 56;
+}
+
+ if(SensorValue(sensor2) == 1)
+  {
+  	motor[port1] = 0;
+  	motor[port10] = 0;
+  	delay(1000);
+  	motor[port1] = -32;
+  	motor[port10] = -32;
+  	delay(1000);
+  	motor[port1] = -100;
+  	motor[port10] = 100;
+		delay(650);
+	}
+		while(SensorValue(sensor2) == 0)
+  	{
+  	motor[port1] = 56;
+  	motor[port10] = 56;
+
+  }
+  if(SensorValue(sensor2) == 1)
+  {
+  	motor[port1] = 0;
+  	motor[port10] = 0;
+
+}}}}
+</p>
+    
+    <img  id="competition" class="vex" target="_blank" src="images/competition.png.JPG">
+    
+    <img class="vex" target="_blank"
+         src="images/techclass.png.JPG">
+    <BR>
+    <HR>
+    <BR>
+    
+    <h2>WEBSITE DESIGN</h2>
+        
+        <p class="captions">In this project, <strong>we designed our own websites!</strong> Using StudioWeb and Khan Academy, we learned two types of basic code: <strong>HTML</strong> and <strong>CSS</strong> HTML is used to code the foundation of the website, while CSS is used to make the website pretty!</p>
+        
+        <BR> 
+            
+    <h2>HERE'S THE CODE I USED TO WRITE THE DESCRIPTION!</h2>
+            
+            <img class="vex" target="_blank"
+                 src="images/code.png">
+            
+            
+    
+    </body>
+    
